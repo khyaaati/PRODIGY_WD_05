@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathero App IO</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">FORECAST.io</h1>
+        <p class="subheader">Find the current weather/climate of any city!!</p>
+        <div class="form-container">
+            <form action="" class="real-form">
+                <div class="input-panel">
+                    <label for="city">Enter the name of the city!</label>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Enter here" name="city" required>
+                </div>
+                <br>
+                <div class="button-panel">
+                    <button type="submit">Search</button>
+                </div>
+                <h2 class="places"></h2>
+                <h2 class="load" style="color: white;font-size: 50px;">Loading...</h2>
+                <div id="cred">
+                    <img src="" alt="" class="icons">
+                    <h2 class="temperature"></h2>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
